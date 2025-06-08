@@ -86,7 +86,7 @@ def send_stream_email():
         msg['To'] = "kebefallou68@gmail.com"
         with smtplib.SMTP("email-smtp.us-east-1.amazonaws.com", 587, timeout=15) as server:
             server.starttls()
-            server.login("AKIA2MP5HD4PJMKFTQGC", "BJnCdhg9dEqNmLyfcNl0OWCUKQD8ubpTnQXgCKsO6K7m")
+            server.login("AWS SMTP", "AWS SMTP")
             server.send_message(msg)
         print("Email sent successfully")
         return True
