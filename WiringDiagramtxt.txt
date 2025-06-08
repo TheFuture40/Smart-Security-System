@@ -1,0 +1,7 @@
+RPi Pinout:
+- CAMERA: CSI Port (between HDMI and Ethernet)  
+- GPIO17 (Pin 11) → PIR OUT  
+- GPIO22 (Pin 15) → Button  
+- GPIO27 (Pin 13) → Buzzer+  
+- 5V (Pin 2/4) → PIR/Buzzer VCC  
+- GND (Pin 6/9/14/20/25) → Common Ground  
